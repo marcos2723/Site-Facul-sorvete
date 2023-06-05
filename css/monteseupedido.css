@@ -1,0 +1,168 @@
+#monte-pedido {
+    background-color: #F282BA;
+    padding: 6px 12px;
+    border-radius: 12px;
+}
+
+#home {
+    background-color: #8CD1EE;
+}
+
+.left-bar {
+    display: inline-flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    margin: 250px 0;
+    font-size: 18px;
+    
+}
+
+.left-bar ul li {
+    margin: 40px 0px; 
+    list-style: none;
+}
+
+.left-bar ul li a {
+    padding: 12px 32px;
+}
+
+#recipiente {
+    background-color: #F282BA;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.recipientes-listas {
+    list-style: none;
+}
+
+.recipientes-listas img {
+    max-width: 150px;
+}
+
+*{
+    outline: 0px solid red;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galery, .amostragem-r {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+}
+
+.galery {
+    flex-direction: row;
+}
+
+#adicionar-recipiente {
+    background-color: #F282BA;
+    padding: 6px 16px;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+}
+
+.recipiente {
+    display: none;
+}
+
+.amostragem-r img{
+    width: 250px;
+}
+
+
+/*
+.one {
+    background-color: #FEAC00;
+    padding: 20px;
+    border-radius: 42px;
+    position: relative;
+    z-index: -1;
+}
+
+.two {
+    background-color: #FEAC00;
+    padding: 20px;
+    border-radius: 42px;
+    position: relative;
+    z-index: -1;
+}
+
+.three {
+    background-color: #FEAC00;
+    padding: 20px;
+    border-radius: 42px;
+    position: relative;
+    z-index: -1;
+}
+
+.four {
+    background-color: #FEAC00;
+    padding: 20px;
+    border-radius: 42px;
+    position: relative;
+    z-index: -1;
+}
+
+.five {
+    background-color: #FEAC00;
+    padding: 20px;
+    border-radius: 42px;
+    position: relative;
+    z-index: -1;
+}
+*/
+
+ul{
+    list-style: none;
+}
+
+.galery button{
+    background-color: #F282BA;
+    padding: 12px 6px;
+}
+
+
+.active {
+    background-color: #FEAC00;
+    padding: 20px;
+    border-radius: 42px;
+    position: relative;
+    z-index: -1;
+    list-style: none;
+}
+
+.inactive {
+    background-color: none;
+}
+
+.active .recipiente {
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;  
+}
+
+.active-t-a {
+    background-color: #F282BA;
+    padding: 6px 16px;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+}
+
+.inactive-t {
+    display: none;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/monteseupedido.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container navbar"> <!-- Barra de navegação da esquerda -->
+            <ul class="navbar-left">
+                <img src="img/Logo sorvete.png" alt="logo-Sorvete" id="logo">
+                <li><a href="index.html" id="home">Home</a></li>
+                <li><a href="monteseupedido.html" id="monte-pedido">Monte Seu Pedido</a></li>
+                <li><a href="" id="entrar-conta">Entrar/Criar Conta</a></li>
+            </ul>
+            <ul class="navbar-rigth"> <!-- Barra de navegação da Direita -->
+                <li><a href=""><img src="img/icons8-shopping-cart-30 2.png" alt="Carrinho" class="header-img"></a></li>
+                <li><a href=""><img src="img/icons8-customer-64 1.png" alt="Perfil" class="header-img"></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="left-bar"> <!-- Lista de acesso da esquerda -->
+        <ul>
+            <li><a id="recipiente">Recipiente</a></li>
+            <li><a>Sabores</a></li>
+            <li><a>Complementos</a></li>
+            <li><a>Picolés</a></li>
+            <li><a>Bebidas</a></li>
+        </ul>
+    </div>
+
+    <main class="main-container">
+        <div class="recipientes-sorvete" id="recipientes">
+            <div class="galery" id="galery">
+                <button class="teste" onclick="voltaSlide()"><</button>
+                <ul class="amostragem-r" id="amostragem-r">
+                    <li class="active" id="1">
+                        <img src="img/recipientes/image 25.png" alt="">
+                        <p class="recipiente" id="nome-r">Casquinha</p>
+                        <p class="inactive-t" id="adicionar-recipiente"> Adicionar </p>
+                    </li>
+                    <li class="" id="2">
+                        <img src="img/recipientes/image 26.png" alt="">
+                        <p class="recipiente" id="nome-r">Vasilha</p>
+                        <p class="inactive-t" id="adicionar-recipiente"> Adicionar </p>
+                    </li>
+                    <li class="" id="3">
+                        <img src="img/recipientes/image 27.png" alt="">
+                        <p class="recipiente" id="nome-r">Pote</p>
+                        <p class="inactive-t" id="adicionar-recipiente"> Adicionar </p>
+                    </li>
+                </ul>
+                <button class="teste" onclick="passaSlide()">></button>
+            </div>
+        </div>
+    </main>
+</body>
+
+
+
+
+
+<script src="index.js"></script>
+<script src="recipientes.js"></script>
+</html>
